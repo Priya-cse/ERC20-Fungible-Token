@@ -1,13 +1,28 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+### Table of Contents
 
-Try running some of the following tasks:
+* [Overview](#overview)
+* [Requirements](#requirements)
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+---
+
+## Overview
+
+We created a fungible token called to kujaCoin that is ERC-20 compliant for a Crowdsale contract from the OpenZeppelin Solidity library.
+
+---
+
+## Requirements
+
+This project leverages python version 3.7.11 with the following packages and modules:
+
+- Solidity - Create the smart contract and implement the joints saving application to work with ether.
+
+- Remix IDE - Write and edit solidity code to create the contracts
+
+- MetaMask - Use digital wallet and a gateway for the Ethereum blockchain.
+
+- OpenZeppelin - OpenZeppelin library provides a wide variety of contracts that are related to the ERC-20 token standard.
+
+---
